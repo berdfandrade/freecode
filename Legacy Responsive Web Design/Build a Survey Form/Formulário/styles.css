@@ -5,7 +5,7 @@
 
 :root {
   --color-white: #f3f3f3;
-  --color-darkblue: grey;
+  --color-darkblue: rgb(40,36,44);
   --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
   --color-green: #37af65;
 }
@@ -51,6 +51,7 @@ p {
 
 h1,
 p {
+  color: #282c34;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -99,7 +100,6 @@ button {
 }
 
 .description {
-  font-style: italic;
   font-weight: 200;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
@@ -107,10 +107,13 @@ button {
 .clue {
   margin-left: 0.25rem;
   font-size: 0.9rem;
-  color: #e4e4e4;
+  color: #282c34;
 }
 
 .text-center {
+  
+  font-weight: 900;
+  color: #5ccbe9;
   text-align: center;
 }
 
@@ -118,7 +121,7 @@ button {
 
 form {
   margin-bottom: 50px;
-  background: rgb(117, 124, 124);
+  background: #f8f4f4;
   padding: 2.5rem 0.625rem;
   border-radius: 0.50rem;
 }
@@ -130,6 +133,7 @@ form {
 }
 
 .form-group {
+  color: #282c34;
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
 }
