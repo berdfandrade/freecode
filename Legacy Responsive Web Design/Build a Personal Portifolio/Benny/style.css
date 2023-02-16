@@ -1,0 +1,107 @@
+/* Google fonts import  */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    /* ------ Cores ------ */
+    --body-color: rgb(250, 250, 250);
+    --sidebar-color: #fff;
+    --primary-color: #695cef;
+    --primary-cpçpr-light: #f6f5ff;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+}
+
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 800px;
+    width: 800px;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
+    border: 0.5px solid rgb(131, 131, 131);
+    background-color: #ffffff;
+  }
+
+    /* Content responsivo */
+    @media (max-width: 768px) {
+    .content {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+
+
+  .content-title{
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  .content-text{
+
+    text-align: left;
+    font-size: 16px;
+    color: #8b8b8b;
+  }
+
+body {
+    background: var(--body-color);
+    height: 100vh;
+}
+
+
+.benny{
+   text-align: center;
+   display: block;
+   height: 120px;
+   width: 120px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+}
+
+
+h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
